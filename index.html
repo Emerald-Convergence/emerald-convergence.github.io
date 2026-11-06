@@ -1,33 +1,140 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0c1216">
-  <meta name="description" content="Emerald Convergence, a Pokémon Emerald ROM hack in development.">
-  <title>Emerald Convergence</title>
-  <style>
-    :root { color-scheme: dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: radial-gradient(ellipse at 20% 15%, #193f39 0, transparent 45%), radial-gradient(ellipse at 85% 85%, #302044 0, transparent 45%), #0c1216; color: #ebf4ef; }
-    main { width: min(92%, 740px); padding: 6rem 0; }
-    .eyebrow { color: #9bc9b1; font-size: .8rem; font-weight: 700; letter-spacing: .23em; text-transform: uppercase; }
-    h1 { font-size: clamp(3.4rem, 10vw, 6.5rem); line-height: .98; letter-spacing: -.07em; margin: 1.5rem 0; }
-    h1 span { display: block; color: #98d7b3; }
-    h1 em { display: block; color: #b9a3e3; font-style: normal; }
-    p { max-width: 35rem; color: #c8d6d0; line-height: 1.7; font-size: 1.12rem; }
-    .status { display: inline-flex; align-items: center; gap: .6rem; border: 1px solid #466257; border-radius: 99px; padding: .6rem .95rem; margin-top: 1.3rem; color: #bfe2cd; font-size: .85rem; }
-    .status:before { content: ""; width: .55rem; height: .55rem; border-radius: 50%; background: #98d7b3; }
-    footer { margin-top: 4rem; color: #899c94; font-size: .78rem; line-height: 1.6; }
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Spoiler-safe Emerald Convergence legendary exploration companion">
+<title>Convergence | LEGENDS</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,sans-serif;background:#161c1a;color:#f0f3ed}
+*{box-sizing:border-box}body{max-width:1120px;margin:0 auto;padding:24px}
+header{border-bottom:1px solid #526758;padding:12px 0 22px}
+.eyebrow,small{color:#a0c4ad;font-weight:700;letter-spacing:.08em}
+h1{font-size:clamp(32px,6vw,53px);margin:8px 0}h2{font-size:18px;margin:10px 0}
+p{line-height:1.5;color:#c5d0c9}.intro{max-width:780px}
+.summary{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}
+.summary span{padding:10px 14px;border:1px solid #3f584b;border-radius:9px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}
+input[type=search],select{font:inherit;background:#242d29;color:#f0f3ed;border:1px solid #587665;
+padding:12px;border-radius:8px}input[type=search]{flex:1;min-width:175px}
+main{display:grid;grid-template-columns:repeat(auto-fill,minmax(245px,1fr));gap:13px}
+article{border:1px solid #425b4b;border-radius:12px;padding:17px;background:#222b26;min-height:202px}
+article[hidden]{display:none}.area{color:#ebf3e8;font-weight:700}.status{font-size:13px;color:#b1c3b6}
+.tracks{border-top:1px solid #415348;padding-top:12px;margin-top:16px;display:flex;flex-direction:column;gap:9px}
+label{cursor:pointer;display:block}input[type=checkbox]{accent-color:#84ad8d;width:16px;height:16px;vertical-align:middle}
+footer{margin-top:30px;padding-top:18px;border-top:1px solid #405749;font-size:14px}
+</style>
 </head>
 <body>
-  <main>
-    <div class="eyebrow">A Pokémon Emerald ROM hack</div>
-    <h1><span>Emerald</span><em>Convergence</em></h1>
-    <p>A new journey through Hoenn, where Void Rifts reshape the familiar. The project is currently in development.</p>
-    <div class="status">In development</div>
-    <footer>Independent fan project. Not affiliated with Nintendo, Game Freak, or The Pokémon Company.</footer>
-  </main>
-</body>
-</html>
+<header><span class="eyebrow">POKÉMON EMERALD CONVERGENCE</span><h1>LEGENDS</h1>
+<p class="intro">Explore the new legendary locations without revealing the Pokémon hiding there.
+Some locations are still planned and do not yet have playable encounter objects.
+This is an exploration guide, not a promise of availability.</p>
+<div class="summary"><span>24 Void Rift sites</span><span>68 Rift encounters</span>
+<span>21 other sightings</span><span>6 evolution paths</span></div></header>
+<div class="controls">
+<input id="search" type="search" placeholder="Search areas" aria-label="Search location">
+<select id="kind" aria-label="Encounter type"><option value="">All encounter types</option>
+<option value="rift">Void Rifts</option><option value="sighting">Sightings</option>
+<option value="evolution">Evolutions</option></select>
+<select id="progress" aria-label="Progress"><option value="">All progress</option>
+<option value="complete">All found</option><option value="incomplete">Still missing</option></select>
+</div>
+<p id="count" role="status"></p><main>
+<article data-kind="rift" data-search="secret dungeon"><small>VOID RIFT · VR-01</small><h2>Unstable Void Rift</h2><p class="area">Secret Dungeon</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-01-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-01-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-01-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="mt. chimney"><small>VOID RIFT · VR-02</small><h2>Unstable Void Rift</h2><p class="area">Mt. Chimney</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-02-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-02-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-02-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="mt. pyre, 5f"><small>VOID RIFT · VR-03</small><h2>Unstable Void Rift</h2><p class="area">Mt. Pyre, 5F</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-03-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-03-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-03-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="route 105 coastal islands"><small>VOID RIFT · VR-04</small><h2>Unstable Void Rift</h2><p class="area">Route 105 coastal islands</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-04-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-04-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-04-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="verdanturf meadow"><small>VOID RIFT · VR-05</small><h2>Unstable Void Rift</h2><p class="area">Verdanturf Meadow</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-05-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-05-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-05-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="route 113 ashlands"><small>VOID RIFT · VR-06</small><h2>Unstable Void Rift</h2><p class="area">Route 113 ashlands</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-06-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-06-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-06-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="petalburg woods, deep section"><small>VOID RIFT · VR-07</small><h2>Unstable Void Rift</h2><p class="area">Petalburg Woods, deep section</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-07-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-07-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-07-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="sealed chamber, outer room"><small>VOID RIFT · VR-08</small><h2>Unstable Void Rift</h2><p class="area">Sealed Chamber, outer room</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-08-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-08-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-08-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="dewford meadow"><small>VOID RIFT · VR-09</small><h2>Unstable Void Rift</h2><p class="area">Dewford Meadow</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-09-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-09-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-09-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="victory road, b2f"><small>VOID RIFT · VR-10</small><h2>Unstable Void Rift</h2><p class="area">Victory Road, B2F</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-10-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-10-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-10-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="safari zone, north"><small>VOID RIFT · VR-11</small><h2>Unstable Void Rift</h2><p class="area">Safari Zone, north</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-11-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-11-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-11-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="ashen woods"><small>VOID RIFT · VR-12</small><h2>Unstable Void Rift</h2><p class="area">Ashen Woods</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-12-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-12-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-12-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="fiery path"><small>VOID RIFT · VR-13</small><h2>Unstable Void Rift</h2><p class="area">Fiery Path</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-13-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-13-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-13-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="sandstrewn ruins, 2f"><small>VOID RIFT · VR-14</small><h2>Unstable Void Rift</h2><p class="area">Sandstrewn Ruins, 2F</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-14-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-14-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-14-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="granite cave, b2f"><small>VOID RIFT · VR-15</small><h2>Unstable Void Rift</h2><p class="area">Granite Cave, B2F</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-15-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-15-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-15-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="abandoned ship, first-floor cabin"><small>VOID RIFT · VR-16</small><h2>Unstable Void Rift</h2><p class="area">Abandoned Ship, first-floor cabin</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-16-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-16-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-16-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="cold crevice"><small>VOID RIFT · VR-17</small><h2>Unstable Void Rift</h2><p class="area">Cold Crevice</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-17-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-17-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-17-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="route 123"><small>VOID RIFT · VR-18</small><h2>Unstable Void Rift</h2><p class="area">Route 123</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-18-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-18-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-18-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="route 115"><small>VOID RIFT · VR-19</small><h2>Unstable Void Rift</h2><p class="area">Route 115</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-19-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-19-2"> Encounter 2 found</label></div></article>
+<article data-kind="rift" data-search="meteor falls, lower cavern"><small>VOID RIFT · VR-20</small><h2>Unstable Void Rift</h2><p class="area">Meteor Falls, Lower Cavern</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-20-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-20-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-20-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="route 110"><small>VOID RIFT · VR-21</small><h2>Unstable Void Rift</h2><p class="area">Route 110</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-21-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-21-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-21-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="petalburg woods, inner grove"><small>VOID RIFT · VR-22</small><h2>Unstable Void Rift</h2><p class="area">Petalburg Woods, Inner Grove</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-22-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-22-2"> Encounter 2 found</label><label><input type="checkbox" class="progress" data-track="VR-22-3"> Encounter 3 found</label></div></article>
+<article data-kind="rift" data-search="cave of origin, entrance"><small>VOID RIFT · VR-23</small><h2>Unstable Void Rift</h2><p class="area">Cave of Origin, Entrance</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-23-1"> Encounter 1 found</label><label><input type="checkbox" class="progress" data-track="VR-23-2"> Encounter 2 found</label></div></article>
+<article data-kind="rift" data-search="sky pillar, summit"><small>VOID RIFT · VR-24</small><h2>Unstable Void Rift</h2><p class="area">Sky Pillar, Summit</p><p class="status">Source object · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="VR-24-1"> Encounter 1 found</label></div></article>
+<article data-kind="sighting" data-search="shoal cave low-tide ice room"><small>SIGHTING · ES-01</small><h2>Mysterious presence</h2><p class="area">Shoal Cave low-tide ice room</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-01">Found</label></div></article>
+<article data-kind="sighting" data-search="new mauville inside"><small>SIGHTING · ES-02</small><h2>Mysterious presence</h2><p class="area">New Mauville Inside</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-02">Found</label></div></article>
+<article data-kind="sighting" data-search="ember path"><small>SIGHTING · ES-03</small><h2>Mysterious presence</h2><p class="area">Ember Path</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-03">Found</label></div></article>
+<article data-kind="sighting" data-search="altering cave b1f"><small>SIGHTING · ES-04</small><h2>Mysterious presence</h2><p class="area">Altering Cave B1F</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-04">Found</label></div></article>
+<article data-kind="sighting" data-search="faraway island interior"><small>SIGHTING · ES-05</small><h2>Mysterious presence</h2><p class="area">Faraway Island Interior</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-05">Found</label></div></article>
+<article data-kind="sighting" data-search="navel rock bottom"><small>SIGHTING · ES-06</small><h2>Mysterious presence</h2><p class="area">Navel Rock Bottom</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-06">Found</label></div></article>
+<article data-kind="sighting" data-search="navel rock top"><small>SIGHTING · ES-07</small><h2>Mysterious presence</h2><p class="area">Navel Rock Top</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-07">Found</label></div></article>
+<article data-kind="sighting" data-search="desert ruins"><small>SIGHTING · ES-08</small><h2>Mysterious presence</h2><p class="area">Desert Ruins</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-08">Found</label></div></article>
+<article data-kind="sighting" data-search="island cave"><small>SIGHTING · ES-09</small><h2>Mysterious presence</h2><p class="area">Island Cave</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-09">Found</label></div></article>
+<article data-kind="sighting" data-search="ancient tomb"><small>SIGHTING · ES-10</small><h2>Mysterious presence</h2><p class="area">Ancient Tomb</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-10">Found</label></div></article>
+<article data-kind="sighting" data-search="southern island interior (native scripted selection)"><small>SIGHTING · ES-11</small><h2>Mysterious presence</h2><p class="area">Southern Island Interior (native scripted selection)</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-11">Found</label></div></article>
+<article data-kind="sighting" data-search="southern island interior (native scripted selection)"><small>SIGHTING · ES-12</small><h2>Mysterious presence</h2><p class="area">Southern Island Interior (native scripted selection)</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-12">Found</label></div></article>
+<article data-kind="sighting" data-search="marine cave end"><small>SIGHTING · ES-13</small><h2>Mysterious presence</h2><p class="area">Marine Cave End</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-13">Found</label></div></article>
+<article data-kind="sighting" data-search="terra cave end"><small>SIGHTING · ES-14</small><h2>Mysterious presence</h2><p class="area">Terra Cave End</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-14">Found</label></div></article>
+<article data-kind="sighting" data-search="sky pillar top"><small>SIGHTING · ES-15</small><h2>Mysterious presence</h2><p class="area">Sky Pillar Top</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-15">Found</label></div></article>
+<article data-kind="sighting" data-search="meteor falls room"><small>SIGHTING · ES-16</small><h2>Mysterious presence</h2><p class="area">Meteor Falls Room</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-16">Found</label></div></article>
+<article data-kind="sighting" data-search="birth island exterior puzzle"><small>SIGHTING · ES-17</small><h2>Mysterious presence</h2><p class="area">Birth Island exterior puzzle</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-17">Found</label></div></article>
+<article data-kind="sighting" data-search="scorched slab room"><small>SIGHTING · ES-18</small><h2>Mysterious presence</h2><p class="area">Scorched Slab Room</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-18">Found</label></div></article>
+<article data-kind="sighting" data-search="sealed chamber inner room"><small>SIGHTING · ES-19</small><h2>Mysterious presence</h2><p class="area">Sealed Chamber Inner Room</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-19">Found</label></div></article>
+<article data-kind="sighting" data-search="cave of origin room"><small>SIGHTING · ES-20</small><h2>Mysterious presence</h2><p class="area">Cave of Origin Room</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-20">Found</label></div></article>
+<article data-kind="sighting" data-search="shoal cave, low-tide ice room → frostbound expanse → black ice chamber"><small>SIGHTING · ES-21</small><h2>Mysterious presence</h2><p class="area">Shoal Cave, Low-Tide Ice Room → Frostbound Expanse → Black Ice Chamber</p><p class="status">Existing source report · gameplay untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="ES-21">Found</label></div></article>
+<article data-kind="evolution" data-search="evolution"><small>EVOLUTION · EV-01</small><h2>Unknown evolution</h2><p class="area">Evolution</p><p class="status">Evolution path recorded · acquisition untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="EV-01">Found</label></div></article>
+<article data-kind="evolution" data-search="evolution"><small>EVOLUTION · EV-02</small><h2>Unknown evolution</h2><p class="area">Evolution</p><p class="status">Evolution path recorded · acquisition untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="EV-02">Found</label></div></article>
+<article data-kind="evolution" data-search="evolution"><small>EVOLUTION · EV-03</small><h2>Unknown evolution</h2><p class="area">Evolution</p><p class="status">Evolution path recorded · acquisition untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="EV-03">Found</label></div></article>
+<article data-kind="evolution" data-search="evolution"><small>EVOLUTION · EV-04</small><h2>Unknown evolution</h2><p class="area">Evolution</p><p class="status">Evolution path recorded · acquisition untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="EV-04">Found</label></div></article>
+<article data-kind="evolution" data-search="evolution"><small>EVOLUTION · EV-05</small><h2>Unknown evolution</h2><p class="area">Evolution</p><p class="status">Evolution path recorded · acquisition untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="EV-05">Found</label></div></article>
+<article data-kind="evolution" data-search="evolution"><small>EVOLUTION · EV-06</small><h2>Unknown evolution</h2><p class="area">Evolution</p><p class="status">Evolution path recorded · acquisition untested</p><div class="tracks"><label><input type="checkbox" class="progress" data-track="EV-06">Found</label></div></article>
+</main><footer>Mark your finds manually. Progress stays in this browser and is not linked
+to your game save. Randomized runs will have different Pokémon from the normal assignment.
+No Pokémon identities, star ratings, exact coordinates, or hidden encounter pools are
+included in this public site.</footer>
+<script>
+"use strict";
+const storageKey="convergenceLegendsFoundV1";
+let found={};
+try {
+  const value=JSON.parse(localStorage.getItem(storageKey)||"{}");
+  if(value&&typeof value==="object"&&!Array.isArray(value)) found=value;
+} catch(e) {}
+const boxes=Array.from(document.querySelectorAll("input.progress"));
+const cards=Array.from(document.querySelectorAll("main article"));
+const search=document.getElementById("search");
+const kind=document.getElementById("kind");
+const progress=document.getElementById("progress");
+for(const box of boxes){
+  box.checked=!!found[box.dataset.track];
+  box.addEventListener("change",()=>{
+    found[box.dataset.track]=box.checked;
+    try{localStorage.setItem(storageKey,JSON.stringify(found));}catch(e){}
+    update();
+  });
+}
+function update(){
+  let shown=0;
+  const term=search.value.trim().toLocaleLowerCase();
+  for(const card of cards){
+    const checks=Array.from(card.querySelectorAll("input.progress"));
+    const complete=checks.every(x=>x.checked);
+    const matches=!term||card.dataset.search.includes(term);
+    card.hidden=!matches||(kind.value&&card.dataset.kind!==kind.value)
+      ||(progress.value==="complete"&&!complete)
+      ||(progress.value==="incomplete"&&complete);
+    if(!card.hidden)shown++;
+  }
+  const completed=boxes.filter(x=>x.checked).length;
+  document.getElementById("count").textContent=
+    completed+" / "+boxes.length+" encounters found · "+shown+" locations shown";
+}
+search.addEventListener("input",update);
+kind.addEventListener("change",update);
+progress.addEventListener("change",update);
+update();
+</script>
+</body></html>

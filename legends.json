@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 3,
+  "game": "Pokémon Emerald Convergence",
+  "visibility": "SPOILER_SAFE_PRE_DISCOVERY",
+  "summary": {
+    "total": 95,
+    "riftSites": 24,
+    "riftEncounters": 68,
+    "sightings": 21,
+    "evolutions": 6
+  },
+  "voidRifts": [
+    {
+      "slot": "VR-01",
+      "label": "Unstable Void Rift",
+      "areaHint": "Secret Dungeon",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-02",
+      "label": "Unstable Void Rift",
+      "areaHint": "Mt. Chimney",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-03",
+      "label": "Unstable Void Rift",
+      "areaHint": "Mt. Pyre, 5F",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-04",
+      "label": "Unstable Void Rift",
+      "areaHint": "Route 105 coastal islands",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-05",
+      "label": "Unstable Void Rift",
+      "areaHint": "Verdanturf Meadow",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-06",
+      "label": "Unstable Void Rift",
+      "areaHint": "Route 113 ashlands",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-07",
+      "label": "Unstable Void Rift",
+      "areaHint": "Petalburg Woods, deep section",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-08",
+      "label": "Unstable Void Rift",
+      "areaHint": "Sealed Chamber, outer room",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-09",
+      "label": "Unstable Void Rift",
+      "areaHint": "Dewford Meadow",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-10",
+      "label": "Unstable Void Rift",
+      "areaHint": "Victory Road, B2F",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-11",
+      "label": "Unstable Void Rift",
+      "areaHint": "Safari Zone, north",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-12",
+      "label": "Unstable Void Rift",
+      "areaHint": "Ashen Woods",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-13",
+      "label": "Unstable Void Rift",
+      "areaHint": "Fiery Path",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-14",
+      "label": "Unstable Void Rift",
+      "areaHint": "Sandstrewn Ruins, 2F",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-15",
+      "label": "Unstable Void Rift",
+      "areaHint": "Granite Cave, B2F",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-16",
+      "label": "Unstable Void Rift",
+      "areaHint": "Abandoned Ship, first-floor cabin",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-17",
+      "label": "Unstable Void Rift",
+      "areaHint": "Cold Crevice",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-18",
+      "label": "Unstable Void Rift",
+      "areaHint": "Route 123",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-19",
+      "label": "Unstable Void Rift",
+      "areaHint": "Route 115",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 2
+    },
+    {
+      "slot": "VR-20",
+      "label": "Unstable Void Rift",
+      "areaHint": "Meteor Falls, Lower Cavern",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-21",
+      "label": "Unstable Void Rift",
+      "areaHint": "Route 110",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-22",
+      "label": "Unstable Void Rift",
+      "areaHint": "Petalburg Woods, Inner Grove",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 3
+    },
+    {
+      "slot": "VR-23",
+      "label": "Unstable Void Rift",
+      "areaHint": "Cave of Origin, Entrance",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 2
+    },
+    {
+      "slot": "VR-24",
+      "label": "Unstable Void Rift",
+      "areaHint": "Sky Pillar, Summit",
+      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
+      "encounterCount": 1
+    }
+  ],
+  "sightings": [
+    {
+      "slot": "ES-01",
+      "label": "Mysterious presence",
+      "areaHint": "Shoal Cave low-tide ice room",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-02",
+      "label": "Mysterious presence",
+      "areaHint": "New Mauville Inside",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-03",
+      "label": "Mysterious presence",
+      "areaHint": "Ember Path",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-04",
+      "label": "Mysterious presence",
+      "areaHint": "Altering Cave B1F",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-05",
+      "label": "Mysterious presence",
+      "areaHint": "Faraway Island Interior",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-06",
+      "label": "Mysterious presence",
+      "areaHint": "Navel Rock Bottom",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-07",
+      "label": "Mysterious presence",
+      "areaHint": "Navel Rock Top",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-08",
+      "label": "Mysterious presence",
+      "areaHint": "Desert Ruins",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-09",
+      "label": "Mysterious presence",
+      "areaHint": "Island Cave",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-10",
+      "label": "Mysterious presence",
+      "areaHint": "Ancient Tomb",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-11",
+      "label": "Mysterious presence",
+      "areaHint": "Southern Island Interior (native scripted selection)",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-12",
+      "label": "Mysterious presence",
+      "areaHint": "Southern Island Interior (native scripted selection)",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-13",
+      "label": "Mysterious presence",
+      "areaHint": "Marine Cave End",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-14",
+      "label": "Mysterious presence",
+      "areaHint": "Terra Cave End",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-15",
+      "label": "Mysterious presence",
+      "areaHint": "Sky Pillar Top",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-16",
+      "label": "Mysterious presence",
+      "areaHint": "Meteor Falls Room",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-17",
+      "label": "Mysterious presence",
+      "areaHint": "Birth Island exterior puzzle",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-18",
+      "label": "Mysterious presence",
+      "areaHint": "Scorched Slab Room",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-19",
+      "label": "Mysterious presence",
+      "areaHint": "Sealed Chamber Inner Room",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-20",
+      "label": "Mysterious presence",
+      "areaHint": "Cave of Origin Room",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    },
+    {
+      "slot": "ES-21",
+      "label": "Mysterious presence",
+      "areaHint": "Shoal Cave, Low-Tide Ice Room → Frostbound Expanse → Black Ice Chamber",
+      "availability": "SOURCE_REPORTED_UNTESTED"
+    }
+  ],
+  "evolutions": [
+    {
+      "slot": "EV-01",
+      "label": "Unknown evolution",
+      "availability": "SOURCE_EVOLUTION_RECORDED"
+    },
+    {
+      "slot": "EV-02",
+      "label": "Unknown evolution",
+      "availability": "SOURCE_EVOLUTION_RECORDED"
+    },
+    {
+      "slot": "EV-03",
+      "label": "Unknown evolution",
+      "availability": "SOURCE_EVOLUTION_RECORDED"
+    },
+    {
+      "slot": "EV-04",
+      "label": "Unknown evolution",
+      "availability": "SOURCE_EVOLUTION_RECORDED"
+    },
+    {
+      "slot": "EV-05",
+      "label": "Unknown evolution",
+      "availability": "SOURCE_EVOLUTION_RECORDED"
+    },
+    {
+      "slot": "EV-06",
+      "label": "Unknown evolution",
+      "availability": "SOURCE_EVOLUTION_RECORDED"
+    }
+  ]
+}
