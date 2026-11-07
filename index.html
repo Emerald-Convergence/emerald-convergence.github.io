@@ -118,7 +118,7 @@ function renderDetail(){
  field.append(lab,select);target.append(field);
  const nameField=el("div","field"),nameLabel=el("label","","Pokémon discovered (optional)");nameLabel.htmlFor="discovered";
  const name=el("input");name.id="discovered";name.placeholder="Enter the Pokémon you found";name.maxLength=60;name.disabled=r.stage<3;name.value=r.name;
- name.addEventListener("change",()=>{state[e.id]={stage:progress(e).stage,name:name.value};save();renderList();renderDetail();});
+ name.addEventListener("input",()=>{state[e.id]={stage:progress(e).stage,name:name.value};save();renderList();target.querySelector("h2").textContent=title(e);meta.querySelector("strong").textContent=progress(e).name.trim()||"Unidentified";});
  nameField.append(nameLabel,name,el("div","note","Enter a name only after marking Seen. The site never supplies hidden Pokémon identities."));target.append(nameField);
  target.append(el("div","bottom","Journal status: "+steps[r.stage]+". Progress is manual and independent of your game save."));
 }
