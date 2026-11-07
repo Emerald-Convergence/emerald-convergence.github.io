@@ -1,342 +1,773 @@
 {
-  "schemaVersion": 3,
-  "game": "Pokémon Emerald Convergence",
-  "visibility": "SPOILER_SAFE_PRE_DISCOVERY",
+  "schemaVersion": 4,
+  "visibility": "SPOILER_SAFE_JOURNAL",
   "summary": {
     "total": 95,
     "riftSites": 24,
-    "riftEncounters": 68,
-    "sightings": 21,
-    "evolutions": 6
+    "rift": 68,
+    "retained": 21,
+    "evolution": 6
   },
-  "voidRifts": [
+  "entries": [
     {
-      "slot": "VR-01",
-      "label": "Unstable Void Rift",
-      "areaHint": "Secret Dungeon",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L001",
+      "title": "Receding tide",
+      "rumor": "A frozen guardian waits in a chamber the sea does not always leave open.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-02",
-      "label": "Unstable Void Rift",
-      "areaHint": "Mt. Chimney",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L002",
+      "title": "Silent power lines",
+      "rumor": "An abandoned power station still draws a visitor to its silent machinery.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-03",
-      "label": "Unstable Void Rift",
-      "areaHint": "Mt. Pyre, 5F",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L003",
+      "title": "Smoldering trail",
+      "rumor": "A guardian of flame waits beyond a trail marked by volcanic heat.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-04",
-      "label": "Unstable Void Rift",
-      "areaHint": "Route 105 coastal islands",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L004",
+      "title": "Shifting cavern",
+      "rumor": "An unfamiliar presence lies beneath a cavern known for its changing inhabitants.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-05",
-      "label": "Unstable Void Rift",
-      "areaHint": "Verdanturf Meadow",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L005",
+      "title": "Island footprints",
+      "rumor": "A playful visitor vanishes into tall grass on an island far from the mainland.",
+      "mythical": true,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-06",
-      "label": "Unstable Void Rift",
-      "areaHint": "Route 113 ashlands",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L006",
+      "title": "Thunder in the ash",
+      "rumor": "Rumors speak of thunder in the ash. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "VR-07",
-      "label": "Unstable Void Rift",
-      "areaHint": "Petalburg Woods, deep section",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L007",
+      "title": "Volcanic heartbeat",
+      "rumor": "Rumors speak of volcanic heartbeat. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "VR-08",
-      "label": "Unstable Void Rift",
-      "areaHint": "Sealed Chamber, outer room",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L008",
+      "title": "Cleansing current",
+      "rumor": "Rumors speak of cleansing current. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "VR-09",
-      "label": "Unstable Void Rift",
-      "areaHint": "Dewford Meadow",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L009",
+      "title": "Deep sea echo",
+      "rumor": "A guardian of the sea waits at the foot of an isolated tower of rock.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-10",
-      "label": "Unstable Void Rift",
-      "areaHint": "Victory Road, B2F",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L010",
+      "title": "Island heights",
+      "rumor": "At the top of a lonely island, broad wings cast their shadow across the sky.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-11",
-      "label": "Unstable Void Rift",
-      "areaHint": "Safari Zone, north",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L011",
+      "title": "Timeless grove",
+      "rumor": "Rumors speak of timeless grove. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "VR-12",
-      "label": "Unstable Void Rift",
-      "areaHint": "Ashen Woods",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L012",
+      "title": "Desert trail",
+      "rumor": "Ancient desert masonry conceals a guardian whose seal is written in Braille.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-13",
-      "label": "Unstable Void Rift",
-      "areaHint": "Fiery Path",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L013",
+      "title": "Coastal hollow",
+      "rumor": "Rumors speak of coastal hollow. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-14",
-      "label": "Unstable Void Rift",
-      "areaHint": "Sandstrewn Ruins, 2F",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L014",
+      "title": "Weathered tomb",
+      "rumor": "A weathered tomb hides a metal guardian behind a seal that calls for light.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-15",
-      "label": "Unstable Void Rift",
-      "areaHint": "Granite Cave, B2F",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L015",
+      "title": "Southern visitor",
+      "rumor": "Rumors speak of southern visitor. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-16",
-      "label": "Unstable Void Rift",
-      "areaHint": "Abandoned Ship, first-floor cabin",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L016",
+      "title": "Southern echo",
+      "rumor": "Rumors speak of southern echo. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-17",
-      "label": "Unstable Void Rift",
-      "areaHint": "Cold Crevice",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L017",
+      "title": "Ocean passage",
+      "rumor": "The sea's guardian waits at the end of a hidden marine cavern.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-18",
-      "label": "Unstable Void Rift",
-      "areaHint": "Route 123",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L018",
+      "title": "Parted earth",
+      "rumor": "An opening in dry earth leads toward a guardian deep within a terrestrial cave.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-19",
-      "label": "Unstable Void Rift",
-      "areaHint": "Route 115",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 2
+      "id": "L019",
+      "title": "Skyward trail",
+      "rumor": "A guardian rests above the clouds, beyond the broken floors of an ancient pillar.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-20",
-      "label": "Unstable Void Rift",
-      "areaHint": "Meteor Falls, Lower Cavern",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L020",
+      "title": "Fallen star",
+      "rumor": "A secluded chamber in a meteor-carved cavern holds a visitor associated with wishes.",
+      "mythical": true,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-21",
-      "label": "Unstable Void Rift",
-      "areaHint": "Route 110",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L021",
+      "title": "Island triangle",
+      "rumor": "A moving triangle on an isolated island conceals a visitor from beyond the sky.",
+      "mythical": true,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "VR-22",
-      "label": "Unstable Void Rift",
-      "areaHint": "Petalburg Woods, Inner Grove",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 3
+      "id": "L022",
+      "title": "Forgotten wisdom",
+      "rumor": "Rumors speak of forgotten wisdom. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "VR-23",
-      "label": "Unstable Void Rift",
-      "areaHint": "Cave of Origin, Entrance",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 2
+      "id": "L023",
+      "title": "Wandering emotion",
+      "rumor": "Rumors speak of wandering emotion. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "VR-24",
-      "label": "Unstable Void Rift",
-      "areaHint": "Sky Pillar, Summit",
-      "availability": "SOURCE_OBJECT_PRESENT_UNTESTED",
-      "encounterCount": 1
-    }
-  ],
-  "sightings": [
-    {
-      "slot": "ES-01",
-      "label": "Mysterious presence",
-      "areaHint": "Shoal Cave low-tide ice room",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L024",
+      "title": "Unbroken will",
+      "rumor": "Rumors speak of unbroken will. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-02",
-      "label": "Mysterious presence",
-      "areaHint": "New Mauville Inside",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L025",
+      "title": "Unwinding hours",
+      "rumor": "Rumors speak of unwinding hours. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-03",
-      "label": "Mysterious presence",
-      "areaHint": "Ember Path",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L026",
+      "title": "Distant dimensions",
+      "rumor": "Rumors speak of distant dimensions. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-04",
-      "label": "Mysterious presence",
-      "areaHint": "Altering Cave B1F",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L027",
+      "title": "Buried furnace",
+      "rumor": "Below a scorched slab, a hidden chamber houses a guardian linked to the Magma Stone.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "ES-05",
-      "label": "Mysterious presence",
-      "areaHint": "Faraway Island Interior",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L028",
+      "title": "Ancient markings",
+      "rumor": "An ancient statue answers only when the three original stone guardians are brought together.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     },
     {
-      "slot": "ES-06",
-      "label": "Mysterious presence",
-      "areaHint": "Navel Rock Bottom",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L029",
+      "title": "Distorted reflection",
+      "rumor": "Rumors speak of distorted reflection. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-07",
-      "label": "Mysterious presence",
-      "areaHint": "Navel Rock Top",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L030",
+      "title": "Crescent dream",
+      "rumor": "Rumors speak of crescent dream. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-08",
-      "label": "Mysterious presence",
-      "areaHint": "Desert Ruins",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L031",
+      "title": "Drifting sea spark",
+      "rumor": "Rumors speak of drifting sea spark. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-09",
-      "label": "Mysterious presence",
-      "areaHint": "Island Cave",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L032",
+      "title": "Ocean bond",
+      "rumor": "Rumors speak of ocean bond. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-10",
-      "label": "Mysterious presence",
-      "areaHint": "Ancient Tomb",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L033",
+      "title": "Sleepless shadow",
+      "rumor": "Rumors speak of sleepless shadow. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-11",
-      "label": "Mysterious presence",
-      "areaHint": "Southern Island Interior (native scripted selection)",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L034",
+      "title": "Meadow gratitude",
+      "rumor": "Rumors speak of meadow gratitude. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-12",
-      "label": "Mysterious presence",
-      "areaHint": "Southern Island Interior (native scripted selection)",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L035",
+      "title": "First light",
+      "rumor": "Rumors speak of first light. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-13",
-      "label": "Mysterious presence",
-      "areaHint": "Marine Cave End",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L036",
+      "title": "Ember of victory",
+      "rumor": "Rumors speak of ember of victory. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-14",
-      "label": "Mysterious presence",
-      "areaHint": "Terra Cave End",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L037",
+      "title": "Iron resolve",
+      "rumor": "Rumors speak of iron resolve. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-15",
-      "label": "Mysterious presence",
-      "areaHint": "Sky Pillar Top",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L038",
+      "title": "Stone resolve",
+      "rumor": "Rumors speak of stone resolve. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-16",
-      "label": "Mysterious presence",
-      "areaHint": "Meteor Falls Room",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L039",
+      "title": "Verdant resolve",
+      "rumor": "Rumors speak of verdant resolve. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-17",
-      "label": "Mysterious presence",
-      "areaHint": "Birth Island exterior puzzle",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L040",
+      "title": "Whirling ash",
+      "rumor": "Rumors speak of whirling ash. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-18",
-      "label": "Mysterious presence",
-      "areaHint": "Scorched Slab Room",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L041",
+      "title": "Storm over ash",
+      "rumor": "Rumors speak of storm over ash. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-19",
-      "label": "Mysterious presence",
-      "areaHint": "Sealed Chamber Inner Room",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L042",
+      "title": "Truth in cinders",
+      "rumor": "Rumors speak of truth in cinders. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-20",
-      "label": "Mysterious presence",
-      "areaHint": "Cave of Origin Room",
-      "availability": "SOURCE_REPORTED_UNTESTED"
+      "id": "L043",
+      "title": "Silent voltage",
+      "rumor": "Rumors speak of silent voltage. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "ES-21",
-      "label": "Mysterious presence",
-      "areaHint": "Shoal Cave, Low-Tide Ice Room → Frostbound Expanse → Black Ice Chamber",
-      "availability": "SOURCE_REPORTED_UNTESTED"
-    }
-  ],
-  "evolutions": [
-    {
-      "slot": "EV-01",
-      "label": "Unknown evolution",
-      "availability": "SOURCE_EVOLUTION_RECORDED"
+      "id": "L044",
+      "title": "Earthen tempest",
+      "rumor": "Rumors speak of earthen tempest. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "EV-02",
-      "label": "Unknown evolution",
-      "availability": "SOURCE_EVOLUTION_RECORDED"
+      "id": "L045",
+      "title": "Hollow frost",
+      "rumor": "Rumors speak of hollow frost. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "EV-03",
-      "label": "Unknown evolution",
-      "availability": "SOURCE_EVOLUTION_RECORDED"
+      "id": "L046",
+      "title": "Resolute tide",
+      "rumor": "Rumors speak of resolute tide. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "EV-04",
-      "label": "Unknown evolution",
-      "availability": "SOURCE_EVOLUTION_RECORDED"
+      "id": "L047",
+      "title": "Hidden melody",
+      "rumor": "Rumors speak of hidden melody. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "EV-05",
-      "label": "Unknown evolution",
-      "availability": "SOURCE_EVOLUTION_RECORDED"
+      "id": "L048",
+      "title": "Armored stowaway",
+      "rumor": "Rumors speak of armored stowaway. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
     },
     {
-      "slot": "EV-06",
-      "label": "Unknown evolution",
-      "availability": "SOURCE_EVOLUTION_RECORDED"
+      "id": "L049",
+      "title": "Living grove",
+      "rumor": "Rumors speak of living grove. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L050",
+      "title": "Fading wings",
+      "rumor": "Rumors speak of fading wings. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L051",
+      "title": "Scattered order",
+      "rumor": "Rumors speak of scattered order. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L052",
+      "title": "Buried gemstone",
+      "rumor": "Rumors speak of buried gemstone. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "retained"
+    },
+    {
+      "id": "L053",
+      "title": "Prison beyond space",
+      "rumor": "Rumors speak of prison beyond space. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L054",
+      "title": "Steam below stone",
+      "rumor": "Rumors speak of steam below stone. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L055",
+      "title": "Sealed experiment",
+      "rumor": "Rumors speak of sealed experiment. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L056",
+      "title": "Unbound companion",
+      "rumor": "The man-made companion gains a new identity through level growth in this game; friendship is not required.",
+      "mythical": false,
+      "available": false,
+      "kind": "evolution"
+    },
+    {
+      "id": "L057",
+      "title": "Island thunder",
+      "rumor": "Rumors speak of island thunder. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L058",
+      "title": "Island reverie",
+      "rumor": "Rumors speak of island reverie. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L059",
+      "title": "Island abundance",
+      "rumor": "Rumors speak of island abundance. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L060",
+      "title": "Island mist",
+      "rumor": "Rumors speak of island mist. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L061",
+      "title": "Stellar traveler",
+      "rumor": "Rumors speak of stellar traveler. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L062",
+      "title": "Sleeping star",
+      "rumor": "The tiny star grows into a denser stellar form through a level-based evolution.",
+      "mythical": false,
+      "available": false,
+      "kind": "evolution"
+    },
+    {
+      "id": "L063",
+      "title": "Dawning star",
+      "rumor": "The sleeping star has two level-based evolution choices here.  The guardian is one of those branches.",
+      "mythical": false,
+      "available": false,
+      "kind": "evolution"
+    },
+    {
+      "id": "L064",
+      "title": "Moonlit star",
+      "rumor": "The guardian is the other branch of the sleeping star's level-based evolution choices in this game.",
+      "mythical": false,
+      "available": false,
+      "kind": "evolution"
+    },
+    {
+      "id": "L065",
+      "title": "Stolen light",
+      "rumor": "Rumors speak of stolen light. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L066",
+      "title": "Clockwork heart",
+      "rumor": "Rumors speak of clockwork heart. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L067",
+      "title": "Shadow boxer",
+      "rumor": "Rumors speak of shadow boxer. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L068",
+      "title": "Fleeting spark",
+      "rumor": "Rumors speak of fleeting spark. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L069",
+      "title": "Tiny metal traveler",
+      "rumor": "Rumors speak of tiny metal traveler. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L070",
+      "title": "Gathered metal",
+      "rumor": "The tiny metal traveler evolves through level growth here, without an outside transfer or a collection requirement.",
+      "mythical": true,
+      "available": false,
+      "kind": "evolution"
+    },
+    {
+      "id": "L071",
+      "title": "Crowned blade",
+      "rumor": "Rumors speak of crowned blade. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L072",
+      "title": "Crowned shield",
+      "rumor": "Rumors speak of crowned shield. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L073",
+      "title": "Endless night",
+      "rumor": "Rumors speak of endless night. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L074",
+      "title": "Young warrior",
+      "rumor": "Rumors speak of young warrior. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L075",
+      "title": "Divided discipline",
+      "rumor": "The young warrior grows into one of two fighting styles through the game's evolution choices.",
+      "mythical": false,
+      "available": false,
+      "kind": "evolution"
+    },
+    {
+      "id": "L076",
+      "title": "Tangled vines",
+      "rumor": "Rumors speak of tangled vines. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L077",
+      "title": "Coiled current",
+      "rumor": "Rumors speak of coiled current. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L078",
+      "title": "Ancient maw",
+      "rumor": "Rumors speak of ancient maw. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L079",
+      "title": "Hooves in snow",
+      "rumor": "Rumors speak of hooves in snow. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L080",
+      "title": "Hooves in shadow",
+      "rumor": "Rumors speak of hooves in shadow. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L081",
+      "title": "Frozen crown",
+      "rumor": "Rumors speak of frozen crown. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L082",
+      "title": "Returning spring",
+      "rumor": "Rumors speak of returning spring. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L083",
+      "title": "Withered leaves",
+      "rumor": "Rumors speak of withered leaves. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L084",
+      "title": "Broken blade",
+      "rumor": "Rumors speak of broken blade. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L085",
+      "title": "Burdened earth",
+      "rumor": "Rumors speak of burdened earth. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L086",
+      "title": "Jealous flame",
+      "rumor": "Rumors speak of jealous flame. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L087",
+      "title": "Ancient stride",
+      "rumor": "Rumors speak of ancient stride. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L088",
+      "title": "Future current",
+      "rumor": "Rumors speak of future current. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L089",
+      "title": "Venomous strength",
+      "rumor": "Rumors speak of venomous strength. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L090",
+      "title": "Cunning whispers",
+      "rumor": "Rumors speak of cunning whispers. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L091",
+      "title": "Gilded plumage",
+      "rumor": "Rumors speak of gilded plumage. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L092",
+      "title": "Masked wanderer",
+      "rumor": "Rumors speak of masked wanderer. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L093",
+      "title": "Crystal depths",
+      "rumor": "Rumors speak of crystal depths. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": false,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L094",
+      "title": "Bound by chains",
+      "rumor": "Rumors speak of bound by chains. Its trail remains hidden in the LEGENDS journal.",
+      "mythical": true,
+      "available": true,
+      "kind": "rift"
+    },
+    {
+      "id": "L095",
+      "title": "Retreating sea",
+      "rumor": "An immense creature sleeps within black ice, waiting for the retreating sea to expose its chamber.",
+      "mythical": false,
+      "available": true,
+      "kind": "retained"
     }
   ]
 }
