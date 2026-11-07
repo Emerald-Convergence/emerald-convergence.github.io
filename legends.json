@@ -1,6 +1,5 @@
 {
-  "schemaVersion": 4,
-  "visibility": "SPOILER_SAFE_JOURNAL",
+  "schemaVersion": 5,
   "summary": {
     "total": 95,
     "riftSites": 24,
@@ -11,763 +10,1672 @@
   "entries": [
     {
       "id": "L001",
-      "title": "Receding tide",
-      "rumor": "A frozen guardian waits in a chamber the sea does not always leave open.",
+      "name": "Articuno",
+      "area": "Shoal Cave",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/articuno.png",
+      "clues": [
+        [
+          "Journal note",
+          "A frozen guardian waits in a chamber the sea does not always leave open."
+        ],
+        [
+          "Field clue",
+          "When the tide slips away, a forgotten chamber is left beneath the ice."
+        ]
+      ]
     },
     {
       "id": "L002",
-      "title": "Silent power lines",
-      "rumor": "An abandoned power station still draws a visitor to its silent machinery.",
+      "name": "Zapdos",
+      "area": "New Mauville",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/zapdos.png",
+      "clues": [
+        [
+          "Journal note",
+          "An abandoned power station still draws a visitor to its silent machinery."
+        ],
+        [
+          "Field clue",
+          "Follow the silent power lines where an old city's lights refuse to die."
+        ]
+      ]
     },
     {
       "id": "L003",
-      "title": "Smoldering trail",
-      "rumor": "A guardian of flame waits beyond a trail marked by volcanic heat.",
+      "name": "Moltres",
+      "area": "Ember Path",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/moltres.png",
+      "clues": [
+        [
+          "Journal note",
+          "A guardian of flame waits beyond a trail marked by volcanic heat."
+        ],
+        [
+          "Field clue",
+          "Past the smoldering trails, a sacred flame waits beyond ordinary warmth."
+        ]
+      ]
     },
     {
       "id": "L004",
-      "title": "Shifting cavern",
-      "rumor": "An unfamiliar presence lies beneath a cavern known for its changing inhabitants.",
+      "name": "Mewtwo",
+      "area": "Altering Cave",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/mewtwo.png",
+      "clues": [
+        [
+          "Journal note",
+          "An unfamiliar presence lies beneath a cavern known for its changing inhabitants."
+        ],
+        [
+          "Field clue",
+          "A strange mind stirs beneath a cave whose walls never stay the same."
+        ]
+      ]
     },
     {
       "id": "L005",
-      "title": "Island footprints",
-      "rumor": "A playful visitor vanishes into tall grass on an island far from the mainland.",
+      "name": "Mew",
+      "area": "Faraway Island",
+      "kind": "retained",
       "mythical": true,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/mew.png",
+      "clues": [
+        [
+          "Journal note",
+          "A playful visitor vanishes into tall grass on an island far from the mainland."
+        ],
+        [
+          "Field clue",
+          "Across lonely waters, a playful presence leaves no footprints for long."
+        ]
+      ]
     },
     {
       "id": "L006",
-      "title": "Thunder in the ash",
-      "rumor": "Rumors speak of thunder in the ash. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Raikou",
+      "area": "Mt. Chimney",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/raikou.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Mt. Chimney shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Mt. Chimney. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L007",
-      "title": "Volcanic heartbeat",
-      "rumor": "Rumors speak of volcanic heartbeat. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Entei",
+      "area": "Mt. Chimney",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/entei.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Mt. Chimney shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Mt. Chimney. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L008",
-      "title": "Cleansing current",
-      "rumor": "Rumors speak of cleansing current. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Suicune",
+      "area": "Route 105",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/suicune.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Route 105. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L009",
-      "title": "Deep sea echo",
-      "rumor": "A guardian of the sea waits at the foot of an isolated tower of rock.",
+      "name": "Lugia",
+      "area": "Navel Rock",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/lugia.png",
+      "clues": [
+        [
+          "Journal note",
+          "A guardian of the sea waits at the foot of an isolated tower of rock."
+        ],
+        [
+          "Field clue",
+          "Deep below a lonely rock, the sea hides a guardian in the dark."
+        ]
+      ]
     },
     {
       "id": "L010",
-      "title": "Island heights",
-      "rumor": "At the top of a lonely island, broad wings cast their shadow across the sky.",
+      "name": "Ho-Oh",
+      "area": "Navel Rock",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/hooh.png",
+      "clues": [
+        [
+          "Journal note",
+          "At the top of a lonely island, broad wings cast their shadow across the sky."
+        ],
+        [
+          "Field clue",
+          "Climb the ancient heights where sunlight crowns a forgotten island."
+        ]
+      ]
     },
     {
       "id": "L011",
-      "title": "Timeless grove",
-      "rumor": "Rumors speak of timeless grove. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Celebi",
+      "area": "Petalburg Woods",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/celebi.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Petalburg Woods. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L012",
-      "title": "Desert trail",
-      "rumor": "Ancient desert masonry conceals a guardian whose seal is written in Braille.",
+      "name": "Regirock",
+      "area": "Desert Ruins",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/regirock.png",
+      "clues": [
+        [
+          "Journal note",
+          "Ancient desert masonry conceals a guardian whose seal is written in Braille."
+        ],
+        [
+          "Field clue",
+          "Ancient desert stones guard a chamber that remembers the first seal."
+        ]
+      ]
     },
     {
       "id": "L013",
-      "title": "Coastal hollow",
-      "rumor": "Rumors speak of coastal hollow. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Regice",
+      "area": "Island Cave",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/regice.png",
+      "clues": [
+        [
+          "Journal note",
+          "A small island cave shelters a frozen guardian behind an inscription and a sealed wall."
+        ],
+        [
+          "Field clue",
+          "Across the waves, a hollow island keeps its secrets under frost."
+        ]
+      ]
     },
     {
       "id": "L014",
-      "title": "Weathered tomb",
-      "rumor": "A weathered tomb hides a metal guardian behind a seal that calls for light.",
+      "name": "Registeel",
+      "area": "Ancient Tomb",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/registeel.png",
+      "clues": [
+        [
+          "Journal note",
+          "A weathered tomb hides a metal guardian behind a seal that calls for light."
+        ],
+        [
+          "Field clue",
+          "Seek the old tomb where rain and weather have worn away the clues."
+        ]
+      ]
     },
     {
       "id": "L015",
-      "title": "Southern visitor",
-      "rumor": "Rumors speak of southern visitor. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Latias",
+      "area": "Southern Island",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/latias.png",
+      "clues": [
+        [
+          "Journal note",
+          "Two elusive visitors share the Southern Island clearing."
+        ],
+        [
+          "Field clue",
+          "An island to the south holds a quiet encounter for the patient."
+        ]
+      ]
     },
     {
       "id": "L016",
-      "title": "Southern echo",
-      "rumor": "Rumors speak of southern echo. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Latios",
+      "area": "Southern Island",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/latios.png",
+      "clues": [
+        [
+          "Journal note",
+          "Two elusive visitors share the Southern Island clearing."
+        ],
+        [
+          "Field clue",
+          "The southern sea hides a second visitor tied to the same mystery."
+        ]
+      ]
     },
     {
       "id": "L017",
-      "title": "Ocean passage",
-      "rumor": "The sea's guardian waits at the end of a hidden marine cavern.",
+      "name": "Kyogre",
+      "area": "Marine Cave",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/kyogre.png",
+      "clues": [
+        [
+          "Journal note",
+          "The sea's guardian waits at the end of a hidden marine cavern."
+        ],
+        [
+          "Field clue",
+          "Where the ocean cuts a hidden path, the sea itself seems to breathe."
+        ]
+      ]
     },
     {
       "id": "L018",
-      "title": "Parted earth",
-      "rumor": "An opening in dry earth leads toward a guardian deep within a terrestrial cave.",
+      "name": "Groudon",
+      "area": "Terra Cave",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/groudon.png",
+      "clues": [
+        [
+          "Journal note",
+          "An opening in dry earth leads toward a guardian deep within a terrestrial cave."
+        ],
+        [
+          "Field clue",
+          "Dry earth parts before a chamber that should never have opened."
+        ]
+      ]
     },
     {
       "id": "L019",
-      "title": "Skyward trail",
-      "rumor": "A guardian rests above the clouds, beyond the broken floors of an ancient pillar.",
+      "name": "Rayquaza",
+      "area": "Sky Pillar",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/rayquaza.png",
+      "clues": [
+        [
+          "Journal note",
+          "A guardian rests above the clouds, beyond the broken floors of an ancient pillar."
+        ],
+        [
+          "Field clue",
+          "Beyond broken floors, the clouds gather around the highest pillar."
+        ]
+      ]
     },
     {
       "id": "L020",
-      "title": "Fallen star",
-      "rumor": "A secluded chamber in a meteor-carved cavern holds a visitor associated with wishes.",
+      "name": "Jirachi",
+      "area": "Meteor Falls",
+      "kind": "retained",
       "mythical": true,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/jirachi.png",
+      "clues": [
+        [
+          "Journal note",
+          "A secluded chamber in a meteor-carved cavern holds a visitor associated with wishes."
+        ],
+        [
+          "Field clue",
+          "Falling stars leave their wishes inside a deep and winding cavern."
+        ]
+      ]
     },
     {
       "id": "L021",
-      "title": "Island triangle",
-      "rumor": "A moving triangle on an isolated island conceals a visitor from beyond the sky.",
+      "name": "Deoxys",
+      "area": "Birth Island",
+      "kind": "retained",
       "mythical": true,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/deoxys.png",
+      "clues": [
+        [
+          "Journal note",
+          "A moving triangle on an isolated island conceals a visitor from beyond the sky."
+        ],
+        [
+          "Field clue",
+          "An isolated island holds a puzzle that moves when you approach."
+        ]
+      ]
     },
     {
       "id": "L022",
-      "title": "Forgotten wisdom",
-      "rumor": "Rumors speak of forgotten wisdom. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Uxie",
+      "area": "Route 119",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/uxie.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Route 119. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L023",
-      "title": "Wandering emotion",
-      "rumor": "Rumors speak of wandering emotion. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Mesprit",
+      "area": "Mt. Pyre",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/mesprit.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Mt. Pyre. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L024",
-      "title": "Unbroken will",
-      "rumor": "Rumors speak of unbroken will. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Azelf",
+      "area": "Ashen Woods",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/azelf.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Ashen Woods. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L025",
-      "title": "Unwinding hours",
-      "rumor": "Rumors speak of unwinding hours. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Dialga",
+      "area": "Meteor Falls",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/dialga.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Meteor Falls. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L026",
-      "title": "Distant dimensions",
-      "rumor": "Rumors speak of distant dimensions. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Palkia",
+      "area": "Meteor Falls",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/palkia.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Meteor Falls. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L027",
-      "title": "Buried furnace",
-      "rumor": "Below a scorched slab, a hidden chamber houses a guardian linked to the Magma Stone.",
+      "name": "Heatran",
+      "area": "Scorched Slab",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/heatran.png",
+      "clues": [
+        [
+          "Journal note",
+          "Below a scorched slab, a hidden chamber houses a guardian linked to the Magma Stone."
+        ],
+        [
+          "Field clue",
+          "Below a sun-baked slab, the earth keeps a furnace of its own."
+        ]
+      ]
     },
     {
       "id": "L028",
-      "title": "Ancient markings",
-      "rumor": "An ancient statue answers only when the three original stone guardians are brought together.",
+      "name": "Regigigas",
+      "area": "Sealed Chamber",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/regigigas.png",
+      "clues": [
+        [
+          "Journal note",
+          "An ancient statue answers only when the three original stone guardians are brought together."
+        ],
+        [
+          "Field clue",
+          "Beyond the ancient stone markings lies a heavier kind of silence."
+        ]
+      ]
     },
     {
       "id": "L029",
-      "title": "Distorted reflection",
-      "rumor": "Rumors speak of distorted reflection. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Giratina",
+      "area": "Meteor Falls",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/giratina.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Meteor Falls. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L030",
-      "title": "Crescent dream",
-      "rumor": "Rumors speak of crescent dream. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Cresselia",
+      "area": "Mt. Pyre",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/cresselia.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Mt. Pyre shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Mt. Pyre. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L031",
-      "title": "Drifting sea spark",
-      "rumor": "Rumors speak of drifting sea spark. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Phione",
+      "area": "Route 105",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/phione.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Route 105 shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Route 105. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L032",
-      "title": "Ocean bond",
-      "rumor": "Rumors speak of ocean bond. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Manaphy",
+      "area": "Route 105",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/manaphy.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Route 105 shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Route 105. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L033",
-      "title": "Sleepless shadow",
-      "rumor": "Rumors speak of sleepless shadow. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Darkrai",
+      "area": "Mt. Pyre",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/darkrai.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Mt. Pyre shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Mt. Pyre. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L034",
-      "title": "Meadow gratitude",
-      "rumor": "Rumors speak of meadow gratitude. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Shaymin",
+      "area": "Verdanturf Meadow",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/shaymin.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Verdanturf Meadow shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Verdanturf Meadow. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L035",
-      "title": "First light",
-      "rumor": "Rumors speak of first light. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Arceus",
+      "area": "Sky Pillar",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/arceus.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Sky Pillar. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L036",
-      "title": "Ember of victory",
-      "rumor": "Rumors speak of ember of victory. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Victini",
+      "area": "Verdanturf Meadow",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/victini.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Verdanturf Meadow shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Verdanturf Meadow. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L037",
-      "title": "Iron resolve",
-      "rumor": "Rumors speak of iron resolve. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Cobalion",
+      "area": "Petalburg Woods",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/cobalion.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Petalburg Woods shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Petalburg Woods. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L038",
-      "title": "Stone resolve",
-      "rumor": "Rumors speak of stone resolve. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Terrakion",
+      "area": "Sandstrewn Ruins",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/terrakion.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Sandstrewn Ruins shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Sandstrewn Ruins. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L039",
-      "title": "Verdant resolve",
-      "rumor": "Rumors speak of verdant resolve. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Virizion",
+      "area": "Petalburg Woods",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/virizion.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Petalburg Woods shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Petalburg Woods. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L040",
-      "title": "Whirling ash",
-      "rumor": "Rumors speak of whirling ash. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Tornadus",
+      "area": "Route 113",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/tornadus.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Route 113 shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Route 113. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L041",
-      "title": "Storm over ash",
-      "rumor": "Rumors speak of storm over ash. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Thundurus",
+      "area": "Route 113",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/thundurus.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Route 113 shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Route 113. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L042",
-      "title": "Truth in cinders",
-      "rumor": "Rumors speak of truth in cinders. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Reshiram",
+      "area": "Mt. Chimney",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/reshiram.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Mt. Chimney. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L043",
-      "title": "Silent voltage",
-      "rumor": "Rumors speak of silent voltage. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Zekrom",
+      "area": "Route 110",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/zekrom.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Route 110. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L044",
-      "title": "Earthen tempest",
-      "rumor": "Rumors speak of earthen tempest. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Landorus",
+      "area": "Route 113",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/landorus.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Route 113. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L045",
-      "title": "Hollow frost",
-      "rumor": "Rumors speak of hollow frost. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Kyurem",
+      "area": "Granite Cave",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/kyurem.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Granite Cave. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L046",
-      "title": "Resolute tide",
-      "rumor": "Rumors speak of resolute tide. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Keldeo",
+      "area": "Sealed Chamber",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/keldeo.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Sealed Chamber. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L047",
-      "title": "Hidden melody",
-      "rumor": "Rumors speak of hidden melody. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Meloetta",
+      "area": "Route 119",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/meloetta.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Route 119 shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Route 119. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L048",
-      "title": "Armored stowaway",
-      "rumor": "Rumors speak of armored stowaway. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Genesect",
+      "area": "Abandoned Ship",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/genesect.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Abandoned Ship shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Abandoned Ship. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L049",
-      "title": "Living grove",
-      "rumor": "Rumors speak of living grove. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Xerneas",
+      "area": "Petalburg Woods",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/xerneas.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Petalburg Woods. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L050",
-      "title": "Fading wings",
-      "rumor": "Rumors speak of fading wings. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Yveltal",
+      "area": "Route 123",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/yveltal.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Route 123. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L051",
-      "title": "Scattered order",
-      "rumor": "Rumors speak of scattered order. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Zygarde",
+      "area": "Cave Of Origin",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/zygarde.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Cave Of Origin. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L052",
-      "title": "Buried gemstone",
-      "rumor": "Rumors speak of buried gemstone. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Diancie",
+      "area": "Cave Of Origin",
+      "kind": "retained",
       "mythical": true,
       "available": true,
-      "kind": "retained"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/diancie.png",
+      "clues": [
+        [
+          "Journal note",
+          "A hidden chamber beneath the Cave of Origin shelters a guardian of brilliant crystal."
+        ],
+        [
+          "Field clue",
+          "Where land first rose from the depths, a brilliant gem lies hidden."
+        ]
+      ]
     },
     {
       "id": "L053",
-      "title": "Prison beyond space",
-      "rumor": "Rumors speak of prison beyond space. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Hoopa",
+      "area": "Route 119",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/hoopa.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Route 119 shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Route 119. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L054",
-      "title": "Steam below stone",
-      "rumor": "Rumors speak of steam below stone. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Volcanion",
+      "area": "Fiery Path",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/volcanion.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Fiery Path shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Fiery Path. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L055",
-      "title": "Sealed experiment",
-      "rumor": "Rumors speak of sealed experiment. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Type: Null",
+      "area": "Abandoned Ship",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/typenull.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Abandoned Ship. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L056",
-      "title": "Unbound companion",
-      "rumor": "The man-made companion gains a new identity through level growth in this game; friendship is not required.",
+      "name": "Silvally",
+      "area": "Evolution",
+      "kind": "evolution",
       "mythical": false,
       "available": false,
-      "kind": "evolution"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/silvally.png",
+      "clues": [
+        [
+          "Journal note",
+          "The man-made companion gains a new identity through level growth in this game; friendship is not required."
+        ],
+        [
+          "Field clue",
+          "A man-made companion gains a new identity as it grows stronger."
+        ]
+      ]
     },
     {
       "id": "L057",
-      "title": "Island thunder",
-      "rumor": "Rumors speak of island thunder. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Tapu Koko",
+      "area": "Dewford Meadow",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/tapukoko.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Dewford Meadow shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Dewford Meadow. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L058",
-      "title": "Island reverie",
-      "rumor": "Rumors speak of island reverie. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Tapu Lele",
+      "area": "Sealed Chamber",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/tapulele.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Sealed Chamber shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Sealed Chamber. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L059",
-      "title": "Island abundance",
-      "rumor": "Rumors speak of island abundance. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Tapu Bulu",
+      "area": "Dewford Meadow",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/tapubulu.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Dewford Meadow shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Dewford Meadow. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L060",
-      "title": "Island mist",
-      "rumor": "Rumors speak of island mist. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Tapu Fini",
+      "area": "Sealed Chamber",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/tapufini.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Sealed Chamber shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Sealed Chamber. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L061",
-      "title": "Stellar traveler",
-      "rumor": "Rumors speak of stellar traveler. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Cosmog",
+      "area": "Route 115",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/cosmog.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Route 115. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L062",
-      "title": "Sleeping star",
-      "rumor": "The tiny star grows into a denser stellar form through a level-based evolution.",
+      "name": "Cosmoem",
+      "area": "Evolution",
+      "kind": "evolution",
       "mythical": false,
       "available": false,
-      "kind": "evolution"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/cosmoem.png",
+      "clues": [
+        [
+          "Journal note",
+          "The tiny star grows into a denser stellar form through a level-based evolution."
+        ],
+        [
+          "Field clue",
+          "The tiny traveler must first grow before its true path is revealed."
+        ]
+      ]
     },
     {
       "id": "L063",
-      "title": "Dawning star",
-      "rumor": "The sleeping star has two level-based evolution choices here.  The guardian is one of those branches.",
+      "name": "Solgaleo",
+      "area": "Evolution",
+      "kind": "evolution",
       "mythical": false,
       "available": false,
-      "kind": "evolution"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/solgaleo.png",
+      "clues": [
+        [
+          "Journal note",
+          "The sleeping star has two level-based evolution choices here.  The guardian is one of those branches."
+        ],
+        [
+          "Field clue",
+          "An unfamiliar star takes shape only after a smaller light matures."
+        ]
+      ]
     },
     {
       "id": "L064",
-      "title": "Moonlit star",
-      "rumor": "The guardian is the other branch of the sleeping star's level-based evolution choices in this game.",
+      "name": "Lunala",
+      "area": "Evolution",
+      "kind": "evolution",
       "mythical": false,
       "available": false,
-      "kind": "evolution"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/lunala.png",
+      "clues": [
+        [
+          "Journal note",
+          "The guardian is the other branch of the sleeping star's level-based evolution choices in this game."
+        ],
+        [
+          "Field clue",
+          "The moon's guardian emerges from a star's patient transformation."
+        ]
+      ]
     },
     {
       "id": "L065",
-      "title": "Stolen light",
-      "rumor": "Rumors speak of stolen light. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Necrozma",
+      "area": "Route 115",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/necrozma.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Route 115. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L066",
-      "title": "Clockwork heart",
-      "rumor": "Rumors speak of clockwork heart. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Magearna",
+      "area": "Abandoned Ship",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/magearna.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Abandoned Ship shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Abandoned Ship. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L067",
-      "title": "Shadow boxer",
-      "rumor": "Rumors speak of shadow boxer. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Marshadow",
+      "area": "Victory Road",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/marshadow.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Victory Road shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Victory Road. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L068",
-      "title": "Fleeting spark",
-      "rumor": "Rumors speak of fleeting spark. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Zeraora",
+      "area": "Victory Road",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/zeraora.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Victory Road shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Victory Road. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L069",
-      "title": "Tiny metal traveler",
-      "rumor": "Rumors speak of tiny metal traveler. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Meltan",
+      "area": "Route 110",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/meltan.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Route 110. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L070",
-      "title": "Gathered metal",
-      "rumor": "The tiny metal traveler evolves through level growth here, without an outside transfer or a collection requirement.",
+      "name": "Melmetal",
+      "area": "Evolution",
+      "kind": "evolution",
       "mythical": true,
       "available": false,
-      "kind": "evolution"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/melmetal.png",
+      "clues": [
+        [
+          "Journal note",
+          "The tiny metal traveler evolves through level growth here, without an outside transfer or a collection requirement."
+        ],
+        [
+          "Field clue",
+          "A cluster of tiny metal travelers may become something far larger."
+        ]
+      ]
     },
     {
       "id": "L071",
-      "title": "Crowned blade",
-      "rumor": "Rumors speak of crowned blade. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Zacian",
+      "area": "Petalburg Woods",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/zacian.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Petalburg Woods. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L072",
-      "title": "Crowned shield",
-      "rumor": "Rumors speak of crowned shield. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Zamazenta",
+      "area": "Sandstrewn Ruins",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/zamazenta.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Sandstrewn Ruins. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L073",
-      "title": "Endless night",
-      "rumor": "Rumors speak of endless night. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Eternatus",
+      "area": "Route 123",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/eternatus.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Route 123. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L074",
-      "title": "Young warrior",
-      "rumor": "Rumors speak of young warrior. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Kubfu",
+      "area": "Dewford Meadow",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/kubfu.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Dewford Meadow. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L075",
-      "title": "Divided discipline",
-      "rumor": "The young warrior grows into one of two fighting styles through the game's evolution choices.",
+      "name": "Urshifu",
+      "area": "Evolution",
+      "kind": "evolution",
       "mythical": false,
       "available": false,
-      "kind": "evolution"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/urshifu.png",
+      "clues": [
+        [
+          "Journal note",
+          "The young warrior grows into one of two fighting styles through the game's evolution choices."
+        ],
+        [
+          "Field clue",
+          "A young warrior grows stronger before taking one of two fighting forms."
+        ]
+      ]
     },
     {
       "id": "L076",
-      "title": "Tangled vines",
-      "rumor": "Rumors speak of tangled vines. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Zarude",
+      "area": "Ashen Woods",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/zarude.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Ashen Woods shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Ashen Woods. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L077",
-      "title": "Coiled current",
-      "rumor": "Rumors speak of coiled current. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Regieleki",
+      "area": "Granite Cave",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/regieleki.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Granite Cave shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Granite Cave. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L078",
-      "title": "Ancient maw",
-      "rumor": "Rumors speak of ancient maw. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Regidrago",
+      "area": "Granite Cave",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/regidrago.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Granite Cave shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Granite Cave. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L079",
-      "title": "Hooves in snow",
-      "rumor": "Rumors speak of hooves in snow. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Glastrier",
+      "area": "Route 119",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/glastrier.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Route 119 shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Route 119. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L080",
-      "title": "Hooves in shadow",
-      "rumor": "Rumors speak of hooves in shadow. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Spectrier",
+      "area": "Route 119",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/spectrier.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Route 119 shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Route 119. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L081",
-      "title": "Frozen crown",
-      "rumor": "Rumors speak of frozen crown. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Calyrex",
+      "area": "Route 119",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/calyrex.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Route 119. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L082",
-      "title": "Returning spring",
-      "rumor": "Rumors speak of returning spring. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Enamorus",
+      "area": "Verdanturf Meadow",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/enamorus.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Verdanturf Meadow. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L083",
-      "title": "Withered leaves",
-      "rumor": "Rumors speak of withered leaves. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Wo-Chien",
+      "area": "Ashen Woods",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/wochien.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Ashen Woods shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Ashen Woods. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L084",
-      "title": "Broken blade",
-      "rumor": "Rumors speak of broken blade. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Chien-Pao",
+      "area": "Victory Road",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/chienpao.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Victory Road. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L085",
-      "title": "Burdened earth",
-      "rumor": "Rumors speak of burdened earth. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Ting-Lu",
+      "area": "Sandstrewn Ruins",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/tinglu.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Sandstrewn Ruins shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Sandstrewn Ruins. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L086",
-      "title": "Jealous flame",
-      "rumor": "Rumors speak of jealous flame. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Chi-Yu",
+      "area": "Fiery Path",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/chiyu.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Fiery Path shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Fiery Path. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L087",
-      "title": "Ancient stride",
-      "rumor": "Rumors speak of ancient stride. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Koraidon",
+      "area": "Fiery Path",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/koraidon.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Fiery Path. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L088",
-      "title": "Future current",
-      "rumor": "Rumors speak of future current. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Miraidon",
+      "area": "Route 110",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/miraidon.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Route 110. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L089",
-      "title": "Venomous strength",
-      "rumor": "Rumors speak of venomous strength. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Okidogi",
+      "area": "Safari Zone",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/okidogi.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Safari Zone shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Safari Zone. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L090",
-      "title": "Cunning whispers",
-      "rumor": "Rumors speak of cunning whispers. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Munkidori",
+      "area": "Safari Zone",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/munkidori.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift in Safari Zone shelters a hidden guardian."
+        ],
+        [
+          "Field clue",
+          "A Void Rift waits in Safari Zone. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L091",
-      "title": "Gilded plumage",
-      "rumor": "Rumors speak of gilded plumage. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Fezandipiti",
+      "area": "Safari Zone",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/fezandipiti.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Safari Zone. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L092",
-      "title": "Masked wanderer",
-      "rumor": "Rumors speak of masked wanderer. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Ogerpon",
+      "area": "Petalburg Woods",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/ogerpon.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Petalburg Woods. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L093",
-      "title": "Crystal depths",
-      "rumor": "Rumors speak of crystal depths. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Terapagos",
+      "area": "Cave Of Origin",
+      "kind": "rift",
       "mythical": false,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/terapagos.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Cave Of Origin. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L094",
-      "title": "Bound by chains",
-      "rumor": "Rumors speak of bound by chains. Its trail remains hidden in the LEGENDS journal.",
+      "name": "Pecharunt",
+      "area": "Route 123",
+      "kind": "rift",
       "mythical": true,
       "available": true,
-      "kind": "rift"
+      "sprite": "https://play.pokemonshowdown.com/sprites/dex/pecharunt.png",
+      "clues": [
+        [
+          "Journal note",
+          "A Void Rift waits in Route 123. Defeat its guardian to begin a capture battle."
+        ]
+      ]
     },
     {
       "id": "L095",
-      "title": "Retreating sea",
-      "rumor": "An immense creature sleeps within black ice, waiting for the retreating sea to expose its chamber.",
+      "name": "Noxveil",
+      "area": "Shoal Cave",
+      "kind": "retained",
       "mythical": false,
       "available": true,
-      "kind": "retained"
+      "sprite": "sprites/noxveil.png",
+      "clues": [
+        [
+          "Journal note",
+          "An immense creature sleeps within black ice, waiting for the retreating sea to expose its chamber."
+        ],
+        [
+          "Field clue",
+          "At low tide, a frozen passage in Shoal Cave leads to a sleeping guardian."
+        ]
+      ]
     }
   ]
 }
