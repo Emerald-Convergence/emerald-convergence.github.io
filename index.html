@@ -101,12 +101,12 @@ function matches(e,search){
  return !search||e.name.toLowerCase().includes(search)||e.area.toLowerCase().includes(search);
 }
 function portrait(e){
- const box=node("div","portrait",e.name[0]);
+ const box=node("div","portrait");
  if(e.sprite==="sprites/noxveil.png"){
   const image=node("span","native");image.style.backgroundImage='url("sprites/noxveil.png")';box.append(image);
  }else{
   const image=node("img");image.src=e.sprite;image.alt=e.name+" sprite";image.loading="lazy";
-  image.addEventListener("error",()=>image.remove());box.append(image);
+  image.addEventListener("error",()=>{image.remove();box.textContent=e.name[0];});box.append(image);
  }
  return box;
 }
